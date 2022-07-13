@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KingICT.Academy2022.Testing.Contract\KingICT.Academy2022.Testing.Contract.csproj" />
+    <ProjectReference Include="..\KingICT.Academy2022.Testing.Repository\KingICT.Academy2022.Testing.Repository.csproj" />
+    <ProjectReference Include="..\KingICT.Academy2022.Testing.Service\KingICT.Academy2022.Testing.Service.csproj" />
+  </ItemGroup>
+
+</Project>

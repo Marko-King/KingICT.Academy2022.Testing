@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.API", "KingICT.Academy2022.Testing.API\KingICT.Academy2022.Testing.API.csproj", "{D48AE616-2A73-4520-B6A8-37239AF61807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.Service", "KingICT.Academy2022.Testing.Service\KingICT.Academy2022.Testing.Service.csproj", "{6E1F973E-A572-497E-9475-4484EA8014C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.Repository", "KingICT.Academy2022.Testing.Repository\KingICT.Academy2022.Testing.Repository.csproj", "{041BE546-61B8-449B-9901-7076A0F15B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.Contract", "KingICT.Academy2022.Testing.Contract\KingICT.Academy2022.Testing.Contract.csproj", "{F36F1F7B-CA70-4F5B-8E6F-71E09FE9D905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.Model", "KingICT.Academy2022.Testing.Model\KingICT.Academy2022.Testing.Model.csproj", "{CED643A6-2E22-4B2C-A80D-4462C12DEFE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.Infrastructure", "KingICT.Academy2022.Testing.Infrastructure\KingICT.Academy2022.Testing.Infrastructure.csproj", "{E1D4B2C1-7802-463A-930C-86BD05A546A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D48AE616-2A73-4520-B6A8-37239AF61807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D48AE616-2A73-4520-B6A8-37239AF61807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D48AE616-2A73-4520-B6A8-37239AF61807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D48AE616-2A73-4520-B6A8-37239AF61807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E1F973E-A572-497E-9475-4484EA8014C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1F973E-A572-497E-9475-4484EA8014C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1F973E-A572-497E-9475-4484EA8014C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1F973E-A572-497E-9475-4484EA8014C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041BE546-61B8-449B-9901-7076A0F15B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041BE546-61B8-449B-9901-7076A0F15B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041BE546-61B8-449B-9901-7076A0F15B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041BE546-61B8-449B-9901-7076A0F15B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36F1F7B-CA70-4F5B-8E6F-71E09FE9D905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36F1F7B-CA70-4F5B-8E6F-71E09FE9D905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36F1F7B-CA70-4F5B-8E6F-71E09FE9D905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36F1F7B-CA70-4F5B-8E6F-71E09FE9D905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED643A6-2E22-4B2C-A80D-4462C12DEFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED643A6-2E22-4B2C-A80D-4462C12DEFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED643A6-2E22-4B2C-A80D-4462C12DEFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED643A6-2E22-4B2C-A80D-4462C12DEFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D4B2C1-7802-463A-930C-86BD05A546A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D4B2C1-7802-463A-930C-86BD05A546A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D4B2C1-7802-463A-930C-86BD05A546A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D4B2C1-7802-463A-930C-86BD05A546A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6291907F-E961-4DE5-9DE1-3F8529826120}
+	EndGlobalSection
+EndGlobal
