@@ -29,6 +29,17 @@ namespace KingICT.Academy2022.Testing.Model
 
 		}
 
+		public Customer(long id, string firstName, string lastName, string phoneNumber, DateTime dateCreated, DateTime? dateUpdated)
+			:base()
+		{
+			Id = id;
+			FirstName = firstName;
+			LastName = lastName;
+			PhoneNumber = phoneNumber;
+			DateCreated = dateCreated;
+			DateUpdated = dateUpdated;
+		}
+
 		#endregion
 
 		#region Public Methods

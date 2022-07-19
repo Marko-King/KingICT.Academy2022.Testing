@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.API", "KingICT.Academy2022.Testing.API\KingICT.Academy2022.Testing.API.csproj", "{D48AE616-2A73-4520-B6A8-37239AF61807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.Academy2022.Testing.API", "KingICT.Academy2022.Testing.API\KingICT.Academy2022.Testing.API.csproj", "{D48AE616-2A73-4520-B6A8-37239AF61807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.Service", "KingICT.Academy2022.Testing.Service\KingICT.Academy2022.Testing.Service.csproj", "{6E1F973E-A572-497E-9475-4484EA8014C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.Academy2022.Testing.Service", "KingICT.Academy2022.Testing.Service\KingICT.Academy2022.Testing.Service.csproj", "{6E1F973E-A572-497E-9475-4484EA8014C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.Repository", "KingICT.Academy2022.Testing.Repository\KingICT.Academy2022.Testing.Repository.csproj", "{041BE546-61B8-449B-9901-7076A0F15B08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.Academy2022.Testing.Repository", "KingICT.Academy2022.Testing.Repository\KingICT.Academy2022.Testing.Repository.csproj", "{041BE546-61B8-449B-9901-7076A0F15B08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.Contract", "KingICT.Academy2022.Testing.Contract\KingICT.Academy2022.Testing.Contract.csproj", "{F36F1F7B-CA70-4F5B-8E6F-71E09FE9D905}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.Academy2022.Testing.Contract", "KingICT.Academy2022.Testing.Contract\KingICT.Academy2022.Testing.Contract.csproj", "{F36F1F7B-CA70-4F5B-8E6F-71E09FE9D905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.Model", "KingICT.Academy2022.Testing.Model\KingICT.Academy2022.Testing.Model.csproj", "{CED643A6-2E22-4B2C-A80D-4462C12DEFE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.Academy2022.Testing.Model", "KingICT.Academy2022.Testing.Model\KingICT.Academy2022.Testing.Model.csproj", "{CED643A6-2E22-4B2C-A80D-4462C12DEFE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.Infrastructure", "KingICT.Academy2022.Testing.Infrastructure\KingICT.Academy2022.Testing.Infrastructure.csproj", "{E1D4B2C1-7802-463A-930C-86BD05A546A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KingICT.Academy2022.Testing.Infrastructure", "KingICT.Academy2022.Testing.Infrastructure\KingICT.Academy2022.Testing.Infrastructure.csproj", "{E1D4B2C1-7802-463A-930C-86BD05A546A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.Tests", "KingICT.Academy2022.Testing.Tests\KingICT.Academy2022.Testing.Tests.csproj", "{0B0B71A5-FA5B-4846-8E4D-2DACAF944453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingICT.Academy2022.Testing.MockRepository", "KingICT.Academy2022.Testing.MockRepository\KingICT.Academy2022.Testing.MockRepository.csproj", "{53EB0BCE-89CD-4AEA-86E9-8FC6F794AD10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{E1D4B2C1-7802-463A-930C-86BD05A546A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1D4B2C1-7802-463A-930C-86BD05A546A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1D4B2C1-7802-463A-930C-86BD05A546A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B0B71A5-FA5B-4846-8E4D-2DACAF944453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B0B71A5-FA5B-4846-8E4D-2DACAF944453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B0B71A5-FA5B-4846-8E4D-2DACAF944453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B0B71A5-FA5B-4846-8E4D-2DACAF944453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EB0BCE-89CD-4AEA-86E9-8FC6F794AD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EB0BCE-89CD-4AEA-86E9-8FC6F794AD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EB0BCE-89CD-4AEA-86E9-8FC6F794AD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EB0BCE-89CD-4AEA-86E9-8FC6F794AD10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
